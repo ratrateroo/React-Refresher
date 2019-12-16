@@ -24,7 +24,8 @@ const App = () => {
 
   const addNewGoalHandler = (newGoal) => {
     //goalList.push(newGoal);
-    setGoalList(goalList.concat(newGoal));
+    //setGoalList(goalList.concat(newGoal));
+    setGoalList(prevGoalList => prevGoalList.concat(newGoal));
     console.log(goalList);
   }
 
