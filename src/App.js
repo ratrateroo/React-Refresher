@@ -1,6 +1,8 @@
 import React from 'react';
 
-import GoalList from './components/GoalList';
+import GoalList from './components/GoalList/GoalList';
+import NewGoal from './components/NewGoal/NewGoal';
+
 import './App.css';
 
 // class App extends React.Component {
@@ -23,6 +25,7 @@ const App = () => {
   return (
     <div className="goals">
       <h2>Goal List</h2>
+      <NewGoal />
       <GoalList goals={goalList}/>
     </div>
   );

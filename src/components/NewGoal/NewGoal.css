@@ -1,0 +1,21 @@
+.new-goal {
+    margin: 2rem;
+    text-align:center;
+    
+}
+
+.new-goal input {
+    font-size: 1rem;
+    border-radius: 1rem 1rem;
+    margin: 1rem;
+    height: 2rem;
+    padding: 1rem;
+}
+
+.new-goal button {
+    font-size: 1rem;
+    border-radius: 1rem 1rem;
+    margin: 1rem;
+    height: 2rem;
+    padding: 0 1rem;
+}
